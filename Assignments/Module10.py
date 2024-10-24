@@ -85,7 +85,7 @@ class Race:
 
     def print_status(self):
         print(f"{self.name}:")
-        print(f"Status after {hours} hours.")
+        print(f"Status after {hours} hours:")
         print(f"{"Registration Number":<20} {"Maximum Speed":<16} {"Current Speed":<15} {"Travelled Distance":<20}")
         for car in self.cars:
             print(f"{car.registration_num:<20} {car.max_speed:<16} {car.current_speed:<15} {car.travelled_distance:<20}")

@@ -85,7 +85,7 @@ class Race:
 
     def print_status(self):
         print(f"{self.name}:")
-        print(f"Status after {hours} hours.")
+        print(f"Status after {hours} hours is given below.")
         print(f"{"Registration Number":<20} {"Maximum Speed":<16} {"Current Speed":<15} {"Travelled Distance":<20}")
         for car in self.cars:
             print(f"{car.registration_num:<20} {car.max_speed:<16} {car.current_speed:<15} {car.travelled_distance:<20}")
@@ -102,7 +102,7 @@ for i in range(1,11):
     max_speed= random.randint(100,200)
     car= Car(registration_number, max_speed)
     cars_list.append(car)
-race= Race("Grand Demoliton Derby", 8000, cars_list)
+race= Race("Grand Demolition Derby", 8000, cars_list)
 hours=0
 while not race.race_finished():
     race.hour_passes()

@@ -32,9 +32,9 @@ new_car= Car("ABC-123", 142)
 new_car.accelerate(30)
 new_car.accelerate(70)
 new_car.accelerate(50)
-print(f"Current speed is {new_car.current_speed}km/h")
+print(f"Current speed is {new_car.current_speed}km/h.")
 new_car.accelerate(-200)
-print(f"Final speed is {new_car.current_speed}km/h")
+print(f"Final speed is {new_car.current_speed}km/h.")
 
 #Exercise3
 class Car:

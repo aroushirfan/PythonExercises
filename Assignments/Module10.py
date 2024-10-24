@@ -35,7 +35,7 @@ class Elevator:
 
     def go_to_floor(self,floor):
         if floor>self.top_floor or floor<self.bottom_floor:
-            print("Not a valid floor")
+            print("Not a valid floor.")
             return
         while floor>self.current_floor:
             self.floor_up()
